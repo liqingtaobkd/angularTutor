@@ -1,0 +1,42 @@
+.container {
+  position:relative;
+  border-left: aquamarine solid 2px;
+  border-right: aquamarine solid 2px;
+  border-top: aquamarine solid 2px;
+  border-bottom: aquamarine solid 2px;
+}
+
+nav {
+  position: absolute;
+  left: 0px;
+  width: 200px;
+  border-left: palevioletred solid 2px;
+  border-right: palevioletred solid 2px;
+  border-top: palevioletred solid 2px;
+  border-bottom: palevioletred solid 2px;
+  padding: 10px;
+  color: palevioletred;
+}
+
+section {
+  margin-left: 200px;
+  color:darkslateblue;
+  border-left: yellow solid 2px;
+  border-right: yellow solid 2px;
+  border-top: yellow solid 2px;
+  border-bottom: yellow solid 2px;
+  padding: 10px;
+}
+
+footer {
+  position : fixed;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+  background-color: white;
+  width: 100%;
+}
+
+body {
+  margin-bottom: 120px;
+}
